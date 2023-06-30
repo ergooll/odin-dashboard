@@ -1,0 +1,13 @@
+:root {
+    --bg-color: #141414;
+    --text-color: #f7eee4;
+    --accent-color: #6462dd;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
