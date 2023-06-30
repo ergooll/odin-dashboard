@@ -1,7 +1,8 @@
 :root {
-    --bg-color: #141414;
-    --text-color: #f7eee4;
-    --accent-color: #6462dd;
+    --bg-color: #cec2af;
+    --text-color-dark: #423f3a;
+    --text-color-light: #d3ccc2;
+    --accent-color: #2a170d;
     font-family: 'Quicksand', sans-serif;
 }
 
