@@ -11,4 +11,43 @@ body {
     overflow: hidden;
     background-color: var(--bg-color);
     color: var(--text-color);
+    display: grid;
+    height: 100vh;
+    grid-template: 15% 85% / 25% 75%;
+}
+
+.sidebar-container {
+    background-color: var(--accent-color);
+    background-image: url("/img/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--text-color-light);
+    grid-row: 1 / 3;
+    padding: 40px;
+}
+
+.header-container {
+    display: grid;
+    grid-template: 1fr 1fr / 70% 10% 20%;
+}
+
+.main-content-container {
+    background-image: url("/img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-buttons {
+    grid-column: 2 / 4;
+}
+
+.bg-blur {
+    height: 100%;
+    backdrop-filter: blur(20px);
+}
+
+h3 {
+    margin: 0;
 }
