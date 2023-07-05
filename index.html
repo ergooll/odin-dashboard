@@ -82,7 +82,7 @@
 
     <div class="header-container">
         <div class="header-item header-searchbar">
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg>
+            <svg id="search-button" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg>
             <input type="text">
         </div>
         <div class="header-item header-profile-small">
@@ -110,12 +110,54 @@
         <div class="projects-container">
             <h3>Your Projects</h3>
             <div class="projects-grid">
-                <div class="projects-item">Project 1</div>
-                <div class="projects-item">Project 2</div>
-                <div class="projects-item">Project 3</div>
-                <div class="projects-item">Project 4</div>
-                <div class="projects-item">Project 5</div>
-                <div class="projects-item">Project 6</div>
+                <div class="projects-item">
+                    <h4>Super Cool Project</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique orci eu nunc efficitur venenatis. Aliquam dolor mauris, gravida nec enim feugiat, tincidunt gravida odio.</p>
+                    <div class="projects-item-buttons">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="128" cy="256" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="112" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="400" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M169.83 279.53l172.34 96.94M342.17 135.53l-172.34 96.94"/></svg>
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <h4>Less Cool Project</h4>
+                    <p>Nulla facilisi. Nulla id fringilla libero. Nullam semper, velit a sollicitudin sagittis, turpis lectus scelerisque sapien, at maximus ex lacus quis augue.</p>
+                    <div class="projects-item-buttons">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="128" cy="256" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="112" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="400" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M169.83 279.53l172.34 96.94M342.17 135.53l-172.34 96.94"/></svg>
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <h4>Loch Ness Monster Tracker</h4>
+                    <p>Proin hendrerit lorem vitae mi tempor vestibulum. In id dapibus erat. Duis non faucibus dui.</p>
+                    <div class="projects-item-buttons">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="128" cy="256" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="112" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="400" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M169.83 279.53l172.34 96.94M342.17 135.53l-172.34 96.94"/></svg>
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <h4>Impossible app</h4>
+                    <p>Nulla metus lorem, efficitur vitae elit vel, auctor suscipit mauris. Donec ut enim malesuada, maximus nisl ac, fermentum magna.</p>
+                    <div class="projects-item-buttons">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="128" cy="256" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="112" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="400" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M169.83 279.53l172.34 96.94M342.17 135.53l-172.34 96.94"/></svg>
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <h4>Better Youtube Autoplay</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan sem nec vulputate commodo.</p>
+                    <div class="projects-item-buttons">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="128" cy="256" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="112" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="400" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M169.83 279.53l172.34 96.94M342.17 135.53l-172.34 96.94"/></svg>
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <h4>Random Song Website</h4>
+                    <p>Curabitur et justo blandit, viverra nibh id, placerat tellus. Nunc at rhoncus elit.</p>
+                    <div class="projects-item-buttons">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="128" cy="256" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="112" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="384" cy="400" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M169.83 279.53l172.34 96.94M342.17 135.53l-172.34 96.94"/></svg>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="announcements-container">
@@ -138,10 +180,34 @@
         <div class="trending-container">
             <h3>Trending</h3>
             <div class="trending-grid">
-                <div class="trending-item">@batman</div>
-                <div class="trending-item">@morgan</div>
-                <div class="trending-item">@alex</div>
-                <div class="trending-item">@max</div>
+                <div class="trending-item">
+                    <img src="/img/alev.png" alt="">
+                    <div>
+                        <p>@rootsikunn</p>
+                        <p>Alev Ström</p>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <img src="/img/kert.png" alt="">
+                    <div>
+                        <p>@ämmapets</p>
+                        <p>Kert Ämmapets</p>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <img src="/img/vendyk.png" alt="">
+                    <div>
+                        <p>@huyendik</p>
+                        <p>Vendyk-Huyendik</p>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <img src="/img/raul.png" alt="">
+                    <div>
+                        <p>@üksjalgvärav</p>
+                        <p>Raul-Jaak-Ervin Üks-Jalgvärav</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
