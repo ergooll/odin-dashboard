@@ -139,6 +139,8 @@ input[type=number] {
 
 .header-container input:focus {
     outline: 1px solid var(--accent-color);
+    background-color: #e7e7e7;
+    transition: 0.5s;
 }
 
 #search-button {
