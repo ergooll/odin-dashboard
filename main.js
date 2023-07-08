@@ -4,23 +4,19 @@ let toggle = 0;
 const favoriteButton = document.querySelectorAll('.favorite');
 const favoritePath = document.querySelectorAll('.favoritePath');
 
-favoriteButton.forEach(btn => {
+favoriteButton.forEach((btn, id) => {
     btn.addEventListener('click', (e) => {
-        favoriteToggle(e.target);
+        favoriteToggle(id);
     });
 });
 
-function favoriteToggle(id) {
+function favoriteToggle(index) {
+    let favoriteID = favoritePath[index];
     if (toggle === 0) {
-        favoritePath.forEach(e => {
-            e.style.fill = favoriteColor;
-        });
+        favoriteID.style.fill = favoriteColor;
         toggle += 1;
-    }
-    else {
-        favoritePath.forEach(e => {
-            e.style.fill = 'none';
-        });
+    } else {
+        favoriteID.style.fill = 'none';
         toggle -= 1;
     }
 }
